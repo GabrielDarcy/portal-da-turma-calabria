@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(255, 241, 180);
+    flex-direction: column;
+
+}
+
+.container {
+    
+    width: 102%;
+    height: 502px;
+    background-color: rgb(255, 241, 180);
+    align-items: left;
+
+   flex-direction: column;
+}
+
+img {
+    margin: 38px;
+    width: 250px;
+    height: 200px;
+}
+
+header {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.jogador {
+    display: flex;
+align-items: center;
+   
+}
+

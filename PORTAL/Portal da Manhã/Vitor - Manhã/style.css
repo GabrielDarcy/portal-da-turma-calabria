@@ -1,0 +1,84 @@
+.produto {
+    display: flex;
+    gap: 30px;          
+    justify-content: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.csstext2 { 
+    background-color: rgba(128, 128, 128, 0.925);
+    height: 360px;
+    border-radius: 2%;
+}
+
+.pm {
+    height: 20%;
+    width: 40%;
+}
+
+.img1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.compra {
+    width: 80%;
+    height: 80vh; /* ocupa toda a altura da tela */
+    border: none;
+    
+}
+
+
+.temap {
+    text-align: center;
+
+}
+
+
+.temad {
+    text-align: center;
+
+}
+
+
+.circulo {
+    background-color: rgb(170, 170, 170);
+    border-radius: 10%;
+    width: 20%;
+    text-align: center;
+
+
+
+
+}
+
+.inicios {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.cheatsf {
+
+    text-align: center;
+}
+
+
+
+.yims {
+
+    object-fit: cover;
+    text-align: center;
+}
+
+.h1s {
+    text-align: center;
+}
+
+.h2s {
+    text-align: center;
+}
