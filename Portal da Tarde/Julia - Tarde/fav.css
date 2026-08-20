@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(219, 190, 247);
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(219, 190, 247);
+    align-items: left;
+    justify-content: space-between;  
+    flex-direction: column;
+        
+}
+
+img {
+    margin: 38px;
+    width: 250px;
+    height: 350px;
+}
+
+header {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.livro {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    margin: 0;
+}
+
+header {
+    background-color: #25003d;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: purple;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: violet;
+}
+
+h2 {
+    color: purple;
+    text-align: center;
+    margin-top: 30px;
+}
+
+pre {
+    background-color: #1a1a1a;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid purple;
+    white-space: pre-wrap;
+}
+
+body > div {
+    text-align: center;
+    margin-top: 30px;
+}
+
+body > div > p {
+    color: violet;
+    font-size: 20px;
+}
+
+body > div > div {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid purple;
+}
+
