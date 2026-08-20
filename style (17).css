@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(255, 241, 180);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+p{
+    text-align: center;
+}
+nav { 
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container {
+    display:flex;
+    width: 102%;
+    height: 647px;
+    background-color: rgb(90, 4, 4);
+    align-items: center;
+   justify-content: space-between;
+   
+}
+
+hr {height: 5px;
+width: 100%;
+background-color: maroon;} 
+
+img {
+    margin: 20px;
+    width: 250px;
+    height: 200px;
+}
