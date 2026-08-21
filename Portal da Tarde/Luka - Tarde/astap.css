@@ -1,0 +1,29 @@
+body{
+    background-color:cornflowerblue;
+    justify-content: first baseline;
+    
+}
+header{
+    background-color: crimson;
+    justify-content: first baseline;
+    align-items: center;
+    height: 90%;
+    display: flex;
+    text-align: center;
+    border: 50px;
+    margin: 10px;
+}
+img{
+    border: solid;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    margin: 0 auto;
+    align-self: center;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
