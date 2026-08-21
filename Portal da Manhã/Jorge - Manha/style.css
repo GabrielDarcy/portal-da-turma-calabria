@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =========================
+   CORPO DA PÁGINA
+========================= */
+
+body {
+    min-height: 100vh;
+
+    background-image: url("Imagens/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    font-family: Arial, sans-serif;
+
+    /* espaço para o header fixo */
+    padding-top: 110px;
+
+    overflow-x: hidden;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100px;
+
+    z-index: 1000;
+
+    background-image:
+        linear-gradient(
+            to right,
+            rgb(231, 85, 85),
+            rgb(0, 0, 0),
+            rgb(0, 0, 0),
+            rgb(27, 36, 23)
+        );
+
+    border: 1px solid #133816;
+}
+
+
+.cabeca {
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 5%;
+}
+
+
+/* =========================
+   TÍTULO DO HEADER
+========================= */
+
+.cabeca h1 {
+    font-size: clamp(20px, 2.2vw, 33px);
+
+    background-color: #ececec;
+
+    border-style: outset inset;
+    border-width: 5px;
+    border-color: orange;
+
+    padding: 0 5px;
+
+    white-space: nowrap;
+}
+
+
+/* =========================
+   MENU
+========================= */
+
+nav {
+    font-size: clamp(18px, 2vw, 28px);
+
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style: none;
+
+    display: flex;
+
+    gap: 20px;
+
+    align-items: center;
+}
+
+nav li {
+    border-style: inset;
+
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+
+    border-radius: 4px;
+}
+
+nav a {
+    color: #ececec;
+    text-decoration: none;
+
+    display: block;
+
+    padding: 3px 6px;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+
+/* =========================
+   TÍTULO "JOGOS"
+========================= */
+
+.introducao {
+    width: 100%;
+}
+
+h2 {
+    width: fit-content;
+
+    margin: 35px auto 50px;
+
+    padding: 5px 25px;
+
+    font-size: clamp(35px, 5vw, 50px);
+
+    text-transform: uppercase;
+    text-align: center;
+
+    border: 5px solid #000;
+    border-radius: 25px;
+
+    background-color: #fff;
+}
+
+
+/* =========================
+   ÁREA DOS JOGOS
+========================= */
+
+.container-jogo {
+    width: 90%;
+    max-width: 1400px;
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns: 1fr minmax(200px, 300px) 1fr;
+
+    gap: 40px;
+
+    align-items: center;
+}
+
+
+/* imagens */
+
+.jogo1,
+.jogo2 {
+    width: 100%;
+    height: 380px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+}
+
+
+.jogo1 {
+    border: 7px inset #2c2517;
+}
+
+.jogo2 {
+    border: 7px outset #dd831c;
+}
+
+
+/* texto central */
+
+.jogo3 {
+    width: 100%;
+
+    padding: 15px;
+
+    font-size: clamp(22px, 3vw, 43px);
+
+    text-align: center;
+
+    background-image:
+        linear-gradient(
+            to right,
+            rgb(141, 136, 88),
+            rgb(223, 150, 5)
+        );
+}
+
+
+/* =========================
+   DIVISÓRIA
+========================= */
+
+hr {
+    width: 90%;
+
+    margin: 60px auto;
+
+    border: none;
+
+    border-top: 20px solid black;
+}
+
+
+/* =========================
+   TÍTULO FAVORITOS
+========================= */
+
+.container {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 45px;
+
+    width: 90%;
+
+    margin: 0 auto 30px;
+}
+
+
+.favor {
+    padding: 7px 15px;
+
+    color: #fff;
+
+    font-size: clamp(35px, 5vw, 50px);
+
+    text-transform: uppercase;
+    text-align: center;
+
+    border: 5px outset #ffe608;
+
+    background-color: #000;
+
+    width: fit-content;
+}
+
+
+.trofeu {
+    width: 120px;
+
+    max-width: 15%;
+
+    height: auto;
+}
+
+
+/* =========================
+   FAVORITOS
+========================= */
+
+.container-favs {
+    width: 90%;
+    max-width: 1100px;
+
+    margin: 0 auto 60px;
+
+    padding: 40px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 8%;
+
+    background-color: #000;
+
+    border: 10px double #ececec;
+
+    border-radius: 25px;
+}
+
+
+.container-favs img {
+    height: 300px;
+
+    object-fit: cover;
+}
+
+
+/* Isaac */
+
+.thesas {
+    width: 25%;
+
+    border: 5px inset #4dd9f1;
+}
+
+
+/* Limbus */
+
+.limzus {
+    width: 23%;
+
+    border: 5px outset #7e2121;
+}
+
+
+/* Yakuza */
+
+.cuzao0 {
+    width: 24%;
+
+    border: 5px outset #4151e0;
+}

@@ -1,0 +1,279 @@
+/* Cabeçalho */
+*{
+    margin: 0;
+}
+
+
+header {
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
+}
+.cabeca h1 {
+    font-size: 33px;
+    top: 23px;
+    right: 600px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    border-style: outset inset;
+    border-width: 5px;
+    background-color: #ececec;
+    width: 200px;
+    padding: 0 5px;
+    border-color: orange;
+}
+
+nav {
+    bottom: 20px;
+    left: 70%;
+    display: flex;
+    position: relative;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #ffff;
+}
+
+nav ul {
+
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+
+}
+
+nav li {
+
+    border-style: inset;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    border-radius: 4px;
+}
+
+header {
+
+    background-image: linear-gradient(to right, rgb(231, 85, 85) , rgb(0, 0, 0), rgb(0, 0, 0), rgb(27, 36, 23));
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #133816;
+}
+
+.incio {
+    color: #ececec;
+    text-decoration: none;
+
+}
+
+.sobre {
+    color: #ececec;
+    text-decoration: none;
+}
+
+.favs {
+    color: #ececec;
+    text-decoration: none;
+}
+
+/* body */
+
+body {
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  background-image: url('Imagens/fundo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 45px;
+}
+
+.favor {
+    margin-top: 120px;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    border-style: outset;
+    border-color: #ffe608;
+    width: 275px;
+    border-width: 10px;
+    background-color: #ffffff;
+}
+
+.container-jogos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 25px 20px 0 15px; 
+    height: auto;
+    width: 70%;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-left: 255px;
+
+    /* background */
+    background-color: #000000;
+    border-style: double;
+    border-color: #ececec;
+    border-width: 10px;
+    border-radius: 25px;
+}
+
+.thesas {
+    border-color: #4dd9f1;
+    border-style: inset;
+    width: 25%; 
+}
+
+.Isaac {
+    text-align: center;
+    color: #ffffff;
+    border-style: dashed;
+    padding: 8px 8px 8px 8px ;
+    font-size: xx-large;
+    margin: 0;
+}
+
+.saac {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    align-items: center;          
+}
+
+.text1 {
+
+    display: flex;
+    flex-direction: column;
+    color: #ffff;
+    margin: 0;
+    text-align: center;
+}
+
+
+.limzus {
+    border-color: #7e2121;
+    border-style: outset;
+    width: 25.5%;
+}
+
+.lil {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    align-items: center;          
+}
+
+.lol {
+    text-align: center;
+    color: #fdfcfc;
+    border-style: outset;
+    border-color: #7e2121;
+    font-size: xx-large;
+    padding: 8px 8px 8px 8px ;
+    margin: 0;
+}
+
+.cuzao0 {
+    border-style: outset;
+    border-color: #4151e0;
+    width: 25%;
+    position: relative;
+    bottom: 25px;
+}
+
+.cu0 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    align-items: center;          
+}
+
+.Yu {
+    text-align: center;
+    color: #fdfcfc;
+    border-style: outset;
+    border-color: #7a7a7a;
+    font-size: xx-large;
+    padding: 8px 8px 8px 8px ;
+    margin: 0;
+}
+
+/* pvz e outros */
+
+.pvz {
+    text-align: center;
+    color: #fdfcfc;
+    border-style: outset;
+    border-color: #00f114;
+    font-size: xx-large;
+    padding: 8px 8px 8px 8px ;
+    margin: 0;
+}
+
+.pvz2 {
+    border-color: #48ff00;
+    border-style: inset;
+    width: 25%; 
+}
+
+.titan {
+    text-align: center;
+    color: #fdfcfc;
+    border-style: outset;
+    border-color: #1b1b1b;
+    font-size: xx-large;
+    padding: 8px 8px 8px 8px ;
+    margin: 0;
+}
+
+.tia {
+    border-color: #5f5f5f;
+    border-style: outset;
+    width: 25.5%;
+}
+
+.Lo {
+    text-align: center;
+    color: #fdfcfc;
+    border-style: outset;
+    border-color: #fcff4f;
+    font-size: xx-large;
+    padding: 8px 8px 8px 8px ;
+    margin: 0;
+}
+
+.lal {
+    border-style: outset;
+    border-color: #e8ff67;
+    width: 25%;
+    position: relative;
+    bottom: 25px;
+}
+
+

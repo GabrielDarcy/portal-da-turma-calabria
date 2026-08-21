@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+}
+
+/* cabeçalho */
+
+header {
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
+}
+.cabeca h1 {
+    font-size: 33px;
+    top: 8px;
+    right: 600px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    border-style: outset inset;
+    border-width: 5px;
+    background-color: #ececec;
+    width: 200px;
+    padding: 0 5px;
+    border-color: orange;
+}
+
+nav {
+    bottom: 53px;
+    left: 70%;
+    display: flex;
+    position: relative;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #ffff;
+}
+
+nav ul {
+
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+
+}
+
+nav li {
+
+    border-style: inset;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    border-radius: 4px;
+}
+
+header {
+
+    background-image: linear-gradient(to right, rgb(231, 85, 85) , rgb(0, 0, 0), rgb(0, 0, 0), rgb(27, 36, 23));
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #133816;
+}
+
+.incio {
+    color: #ececec;
+    text-decoration: none;
+
+}
+
+.sobre {
+    color: #ececec;
+    text-decoration: none;
+}
+
+.favs {
+    color: #ececec;
+    text-decoration: none;
+}
+
+/* body */
+
+body {
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  background-image: url('imagens/fundo3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h2 {
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    left: 750px;
+    font-size: 50px;
+    text-transform: uppercase;
+    border-style: double;
+    width: 400px;
+    border-width: 15px ;
+    background-color: #e8e9e5;
+
+}
+
+.container {
+    padding: 10px 10px 10px 10px;
+    width: 550px;
+    border-style: dashed;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    left: 675px;
+    background-color: #ffff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+}
