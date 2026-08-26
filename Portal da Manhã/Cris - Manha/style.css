@@ -1,0 +1,33 @@
+h1 { text-align: center;}
+body {background-color: rgb(252, 253, 255);}
+.container-quadrado {
+    display:flex;
+    justify-content:end;
+    margin: 50px;
+}
+.container-quadrado1 {
+    display:flex;
+    justify-content:center;
+    margin: 50px;
+}
+.container-quadrado2 {
+    display:flex;
+    justify-content:start;
+    margin: 100px;
+}
+
+.quadrado{
+    width: 160px;
+    height: 160px;
+    background-color:rgb(40, 139, 163);
+}
+.quadrado1 {
+    width: 160px;
+    height: 160px;
+    background-color:rgb(28, 150, 12);
+}
+.quadrado2 {
+    width: 160px;
+    height: 160px;
+    background-color:rgb(252, 227, 6);
+}

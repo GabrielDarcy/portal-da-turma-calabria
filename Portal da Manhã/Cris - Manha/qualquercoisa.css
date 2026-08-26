@@ -1,0 +1,62 @@
+.content {
+display: flex;
+justify-content: center;
+text-align: center;
+gap: 20px;
+height: 30%;
+}
+
+
+.Lesoes {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.favorito {
+text-align: end;
+}
+.img1 {
+width:40%;
+height: 20%;
+}
+.html {
+    background-color: gray;
+}
+.h22{
+    text-align: center;
+
+}
+.img {
+background-color: grey;
+
+}
+body {
+    background-color: grey;
+}
+.lll {
+text-align: center;
+
+}
+.ll {
+    text-align: left;
+    line-height: 1.4;
+    max-width: 2.4;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+.l {
+    text-align: center;
+}
+.llll {
+    text-align: center;
+  line-height: 1.4;
+    max-width: 2.4;
+      padding: 0 20px;
+}
+.m {
+    text-align: center;
+}
+.a {
+    text-align: center;
+}
