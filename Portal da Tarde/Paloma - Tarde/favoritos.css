@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(212, 192, 6);
+    color: rgb(36, 19, 184);
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 15px;
+}
+
+nav a {
+    margin: 0 10px;
+    color: rgb(36, 19, 184);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.Fav {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container2 {
+    padding: 20px;
+    display: grid;
+
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: auto 1fr;
+
+    grid-template-areas:
+        "img titulo"
+        "img texto";
+
+    gap: 10px 20px;
+
+    align-items: start;
+}
+
+.container2 img {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    grid-area: img;
+}
+
+.container2 h2 {
+    margin: 0;
+    grid-area: titulo;
+}
+
+.container2 p {
+    margin: 0;
+    grid-area: texto;
+    line-height: 1.6;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid rgb(36, 19, 184);
+    margin: 10px 0;
+}
